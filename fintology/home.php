@@ -300,28 +300,36 @@ get_header();
           <div class="row">
             <div class="col-12">
               <div
-                class="company-logos-img gap-4 gap-sm-0 d-grid d-sm-flex align-items-sm-center justify-content-between"
+                class="company-logos-img d-grid d-sm-flex align-items-sm-center justify-content-between"
               >
+               <a href="javascript:void(0);" target="_blank">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/Google-Review.png"
                   class="img-fluid company-logo-img"
                   alt=""
                 />
+				  </a>
+				  <a href="javascript:void(0)" target="_blank">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/BBB-logo-horizontal-desktop-PNG.png"
                   class="img-fluid company-logo-img"
                   alt=""
                 />
+				  </a>
+				   <a href="https://www.facebook.com/people/Fintology/100091794064816/?sk=reviews" target="_blank">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/Unknown.png"
                   class="img-fluid company-logo-img"
                   alt=""
                 />
+				  </a>
+				   <a href="https://www.trustpilot.com/review/fintology.io" target="_blank">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/trustpilot-new.png"
                   class="img-fluid company-logo-img"
                   alt=""
                 />
+				  </a>
               </div>
             </div>
           </div>

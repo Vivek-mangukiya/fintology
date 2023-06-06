@@ -28,9 +28,7 @@ get_header();
                   Engineers, Developers & Staff
                 </h1>
                 <p class="heading-label-big-p text-center text-lg-start">
-                  Fintology is a subsidiary owned by the Sequence AI
-                  Technologies Corporation. With hundreds of opportunities see
-                  if we are a home for you!
+                  Fintology is a subsidiary of sequence AI Technologies Corporation, presenting numerous opportunities for you to explore. Discover if we are the right home for you among our wide range of offerings!
                 </p>
                 <div data-aos="fade-up" data-aos-duration="1000">
                   <a
@@ -125,11 +123,7 @@ get_header();
                   <span class="border-line d-block"></span>
                   <h5 class="fw-600">Know Yourself</h5>
                   <p class="fw-400 mb-0">
-                    We believe in Change and Disruption for the Better. We want
-                    those that feel they can Change Tomorrow!Self Ingenuity is
-                    key when it comes to our Team. with a Team of Highly Skilled
-                    Individuals we are here to Ensure that our Staff Always
-                    Knows What’s Best.
+                    We are seeking individuals who are driven to change tomorrow! At Fintology, we value self-ingenuity as a key attribute within our team. With a highly skilled and dedicated workforce, we strive to ensure that our staff always stays informed and makes the best decisions.
                   </p>
                 </div>
                 <div class="core-value-col">
@@ -143,10 +137,7 @@ get_header();
                   <span class="border-line d-block"></span>
                   <h5 class="fw-600">Chess and Checkers</h5>
                   <p class="fw-400 mb-0">
-                    Ingenuity isn't About who can do it the best but who can do
-                    it for the better. here AT Logiq we Ensure that all our
-                    Staff Knows When it’s a Game of Chess and When It’s as
-                    Simple as Checkers.
+                   Ingenuity is not just about doing it the best, but doing it for the better. At Fintology, we empower our staff to discern when it's a game of chess and when it's as simple as checkers.
                   </p>
                 </div>
               </div>

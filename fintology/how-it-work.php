@@ -181,18 +181,19 @@ get_header();
               <h2 class="heading-title mx-auto text-center">
                 The <span class="primary-text">Problem</span>
               </h2>
-              <p class="heading-label-p mx-auto text-center">
+<!--               <p class="heading-label-p mx-auto text-center">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
-              </p>
+              </p> -->
             </div>
             <div
               class="text-center w-100 mt-5"
               data-aos="fade-up"
               data-aos-duration="1000"
             >
+<!-- 				<?php //echo get_template_directory_uri(); ?>/assets/images/bg/the-problem-img.png -->
               <img
-                src="<?php echo get_template_directory_uri(); ?>/assets/images/bg/the-problem-img.png"
+                src="https://fintology.io/wp-content/uploads/2023/05/the-problem-img-1.png"
                 class="img-fluid the-problem-img"
                 alt=""
               />
@@ -208,7 +209,7 @@ get_header();
         <div class="row">
           <div class="col-12">
             <h2 class="heading-title text-center">
-              How It <span class="primary-text">Works</span>
+              How it <span class="primary-text">Works</span>
             </h2>
             <div
               class="how-it-work-box w-100"
@@ -217,11 +218,11 @@ get_header();
             >
               <video controls>
                 <source
-                  src="<?php echo get_template_directory_uri(); ?>/assets/images/video/FIntology-video-2nd-Cut-FINAL-1.mp4"
+                  src="https://fintology.io/wp-content/uploads/2023/05/FIntology-video-2nd-Cut-FINAL-1.mp4"
                   type="video/mp4"
                 />
                 <source
-                  src="<?php echo get_template_directory_uri(); ?>/assets/images/video/FIntology-video-2nd-Cut-FINAL-1.ogg"
+                  src="https://fintology.io/wp-content/uploads/2023/05/FIntology-video-2nd-Cut-FINAL-1.ogg"
                   type="video/ogg"
                 />
               </video>
@@ -241,10 +242,10 @@ get_header();
                 The Solution with Our Smart Adaptive
                 <span class="primary-text">AI</span> Technology
               </h2>
-              <p class="heading-label-p mx-auto text-center">
+<!--               <p class="heading-label-p mx-auto text-center">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
-              </p>
+              </p> -->
               <div
                 class="text-center w-100 mt-5"
                 data-aos="fade-up"
@@ -319,9 +320,8 @@ get_header();
                     </svg>
                   </div>
                   <p class="heading-label-p light-label-p">
-                    No need to worry about compliances, licenses, insurances, or
-                    legal Fintology ensures that every client is secure, safe,
-                    and complaint no matter the business niche.
+                    With Fintology, you can set aside concerns about compliance, licenses, insurance, or legal matters. We prioritize the security, safety, and compliance of every client, regardless of their business niche.
+
                   </p>
                 </li>
                 <li class="d-flex align-items-baseline">
@@ -384,11 +384,10 @@ get_header();
             </div>
             <div class="ld-content-col ms-lg-auto mt-5 mt-lg-0">
               <h2 class="heading-title">
-                Unrivaled Consumer <span class="primary-text">Experience</span>
+                Unrivaled Customer <span class="primary-text">Experience</span>
               </h2>
               <p class="heading-label-p">
-                With Fintology consumers are able to have an all in one solution
-                that allows an ease of use and a peace of mind.
+                Fintology offers consumers an all-in-one solution that provides both ease of use and peace of mind.
               </p>
               <a
                 href="https://calendly.com/fintology/learnmore?month=2023-04"
@@ -450,10 +449,7 @@ get_header();
                     </svg>
                   </div>
                   <p class="heading-label-p light-label-p">
-                    Fintology does not just use a concumer reports score but
-                    also data such as geographical data, economical data, and
-                    additonal proprietary systems to determine what lendign
-                    products are best within your industry or niche.
+                    Fintology goes beyond consumer credit scores by leveraging diverse data sources, including geographical and economic data, as well as proprietary systems. This holistic approach enables us to identify the most suitable lending products within your industry or niche.
                   </p>
                 </li>
                 <li class="d-flex align-items-baseline">
@@ -474,9 +470,10 @@ get_header();
                     </svg>
                   </div>
                   <p class="heading-label-p light-label-p">
-                    Know exactly what your consumer needs in a matter of minutes
+<!--                     Know exactly what your consumer needs in a matter of minutes
                     with out spending labor ortime trying to find the best
-                    financing solutions foryour products or services.
+                    financing solutions foryour products or services. -->
+					  Discover your consumer's exact financing needs within minutes, without the labor- and time-intensive process of searching for the best financing solutions for your products or services.
                   </p>
                 </li>
               </ul>

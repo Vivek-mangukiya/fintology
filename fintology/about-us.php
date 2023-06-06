@@ -48,7 +48,7 @@ get_header();
             <div class="row">
                 <div class="col-12 d-lg-flex align-items-center">
                     <div class="count-number-head-wrap">
-                        <p class="fw-400 mb-0">Trusted fast moving companies and teams centered within the United States</p>
+                        <p class="fw-400 mb-0">A trusted fast moving company with teams centered within the United States</p>
                     </div>
                     <div class="count-number-content-wrap d-grid ms-auto mt-4 mt-lg-0">
                         <div class="count-number-col">
@@ -80,19 +80,42 @@ get_header();
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/ai-icon0.svg" class="img-fluid" alt=""  data-aos="fade-up"
                             data-aos-duration="1000" />
                             <h4 class="fw-600">What we do</h4>
-                            <p class="mb-0">Fintology Delivers Modern Lending & Verification Technology. Fintology is has Leading Infrastructure Systems and Proprietary Ai Systems.</p>
+                            <p class="mb-0">
+							<span class="" id="merchant-view-short">
+							 Finotology delvers advanced lending products along with delivering insurance and tax strategy with every consumer lended for their business or personal life. Fintology also
+							</span>
+							<span class="d-none" id="merchant-view-all"
+							  >Finotology delvers advanced lending products along with delivering insurance and tax strategy with every consumer lended for their business or personal life. Fintology also offers autonomous repair & monitoring services for those that do not qualify for lending products while still delivering other forms of capital through insurance, tax, and alternative lending strategies.  Fintology is an all in one financial wheelhouse for all businesses and consumers.</span>
+							<a href="javascript:void(0)"
+							  class="primary-text hover-txt-black text-decoration-underline"
+							  id="view-more0"
+							  >View More</a>
+							</p>
                         </div>
                         <div class="ai-solution-box-col text-center text-lg-start">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/ai-technology.svg" class="img-fluid" alt=""   data-aos="fade-up"
                             data-aos-duration="1000"/>
                             <h4 class="fw-600">Technology</h4>
-                            <p class="mb-0">We use the latest Technologies with the most Compliant Lending Practices From our Softwares. Our Monolith Tech Stack Includes the most Secure Systems Available.</p>
+                            <p class="mb-0">
+								<span class="" id="tax-view-short">
+								 We use the latest technologies backed by some of the most compliant lending practices from our partners. Our monolith tech stack includes the most secure systems available to
+								</span>
+								<span class="d-none" id="tax-view-all"
+
+								  >We use the latest technologies backed by some of the most compliant lending practices from our partners. Our monolith tech stack includes the most secure systems available to create the best experiences possible.
+								</span>
+								<a
+								  href="javascript:void(0)"
+								  class="primary-text hover-txt-black text-decoration-underline"
+								  id="view-more1"
+								  >View More</a>
+							</p>
                         </div>
                         <div class="ai-solution-box-col text-center text-lg-start">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/ai-team.svg" class="img-fluid" alt=""   data-aos="fade-up"
                             data-aos-duration="1000" />
                             <h4 class="fw-600">Team</h4>
-                            <p class="mb-0">Veterans with Decades of Combined Experience in SaaS Technology.</p>
+                            <p class="mb-0">Veterans with decades of combined experience in SaaS technology.</p>
                         </div>
                     </div>
                     <div class="ai-solution-box-row d-lg-flex justify-content-center flex-wrap flex-lg-wrap-0">
@@ -100,13 +123,13 @@ get_header();
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/ai-goal.svg" class="img-fluid" alt=""  data-aos="fade-up"
                             data-aos-duration="1000"/>
                             <h4 class="fw-600">Mission</h4>
-                            <p class="mb-0">Fintology is here every step of the way with also offering merchant solutions for you and your niche whether that be high risk or low barrier entry business models.</p>
+                            <p class="mb-0">Our goal is to ensure that every business and consumer has access to every financial resource and product available to ensure the success of their financial future!</p>
                         </div>
                         <div class="ai-solution-box-col text-center text-lg-start">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/ai-icon1.svg" class="img-fluid" alt=""  data-aos="fade-up"
                             data-aos-duration="1000" />
-                            <h4 class="fw-600">What we do</h4>
-                            <p class="mb-0">Fintology Delivers Modern Lending & Verification Technology. Fintology is has Leading Infrastructure Systems and Proprietary Ai Systems.We are Backed by some of the Worlds most Successful Investors. The Capital we Secure Helps us Build the Systems for Clients just like you.</p>
+                            <h4 class="fw-600">Goal</h4>
+                            <p class="mb-0">Ensuring that user we know has access to the Fintology platform</p>
                         </div>
                     </div>
                 </div>
@@ -171,7 +194,7 @@ get_header();
                 <div class="col-12">
                     <div class="interested-in-investing-content-wrap mx-auto">
                         <h2 class="heading-title text-center">Interested in Investing?</h2>
-                        <p class="heading-label-p text-center">Our board of members have decades of knowledge and experience building successful tech start ups. Soon we will IPO and now is the time where we will be interested in additional capital partners that can have added value and experience to our technology.</p>
+                        <p class="heading-label-p text-center">Our board of members has decades of knowledge and experience building successful tech startups. soon, we will IPO and now is the time where we will be interested in additional capital partners that can have added value and experience to our technology.</p>
                         <div  data-aos="fade-up"
                         data-aos-duration="1000">
                         <button class="primary-btn gap-2 content-mt-primary-btn mx-auto">

@@ -124,13 +124,7 @@ get_header();
                   Why <span class="primary-text">Fintology?</span>
                 </h2>
                 <p class="heading-label-p">
-                  Our proprietary AI technology systems are unrivaled and create
-                  a seamless verification and/or lending experience for not only
-                  small and midsized businesses but also the consumer & business
-                  receiving a product and/or service from our users. No matter
-                  the businesses industry or niche our unique B2B SaaS services
-                  allow businesses to scale and turn each consumer into a
-                  customer.
+                  Our  proprietary AI technology systems create an unrivaled lending experience for consumers, small, and midsized businesses. No matter the businesses industry or niche our unique lending experience allows businesses to scale and turn each consumer into a customer.
                 </p>
                 <a
                   href="<?php echo get_site_url(); ?>/how-it-work/"
@@ -206,8 +200,7 @@ get_header();
               </div>
               <h5>Create a Seamless Verification</h5>
               <p class="mb-0">
-                Military grade verification to protect all consumers from fraud.
-                Never experience a compliance risk ever again.
+                Experience military-grade verification that safeguards all consumers against fraud, ensuring your peace of mind. Say goodbye to compliance risks forever.
               </p>
             </div>
             <div class="Why-fintology-content-col wf-col3">
@@ -222,8 +215,7 @@ get_header();
               </div>
               <h5>Unique B2B SaaS Services</h5>
               <p class="mb-0">
-                Fintology Offers innovative solutions as a Software as a Service
-                and Platform as a Service.
+                Fintology provides cutting-edge solutions through Software-as-a-Service (SaaS) and Platform-as-a-Service (PaaS) offerings.
               </p>
             </div>
           </div>
@@ -244,10 +236,7 @@ get_header();
                   as a Service.
                 </h2>
                 <p class="heading-label-p">
-                  Fintology has allowed over $800M in lending to be distributed
-                  throughout our AI financial infrastructure technology.
-                  Fintology enables any business or consumer to finance any
-                  product or service they have to offer.
+                  With Fintology's AI-powered financial infrastructure technology, we have facilitated over $800 million in lending. Our platform empowers businesses and consumers alike to secure financing for any product or service they offer.
                 </p>
                 <a
                   href="https://calendly.com/fintology/learnmore?month=2023-04"
@@ -292,28 +281,36 @@ get_header();
           <div class="row">
             <div class="col-12">
               <div
-                class="company-logos-img gap-4 gap-sm-0 d-grid d-sm-flex align-items-sm-center justify-content-between"
+                class="company-logos-img d-grid d-sm-flex align-items-sm-center justify-content-between"
               >
+				 <a href="javascript:void(0)" target="_blank">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/Google-Review.png"
                   class="img-fluid company-logo-img"
                   alt=""
                 />
+				  </a>
+				  <a href="javascript:void(0)" target="_blank">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/BBB-logo-horizontal-desktop-PNG.png"
                   class="img-fluid company-logo-img"
                   alt=""
                 />
+				  </a>
+				   <a href="https://www.facebook.com/people/Fintology/100091794064816/?sk=reviews" target="_blank">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/Unknown.png"
                   class="img-fluid company-logo-img"
                   alt=""
                 />
+				  </a>
+				 <a href="https://www.trustpilot.com/review/fintology.io" target="_blank">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/trustpilot-new.png"
                   class="img-fluid company-logo-img"
                   alt=""
                 />
+				  </a>
               </div>
             </div>
           </div>
@@ -427,19 +424,17 @@ get_header();
                   <p
                     class="heading-label-p heading-text-color label-content-ani position-relative"
                   >
-                    Simple no code solutions
+                    Simple no code solutions.
                   </p>
                   <p
                     class="heading-label-p heading-text-color label-content-ani position-relative"
                   >
-                    Fintology's AI technology is integrated with industry
-                    leading core systems
+                   Fintology's AI technology is integrated with industry leading systems.
                   </p>
                   <p
                     class="heading-label-p heading-text-color label-content-ani position-relative"
                   >
-                    Fintology is the perfect solution for all business owners
-                    whether mobile or desktop
+                    Fintology is the perfect solution for all users whether that be mobile or desktop.
                   </p>
                 </div>
               </div>
@@ -477,8 +472,7 @@ get_header();
               </div>
               <div class="ld-content-col ms-lg-auto mt-5 mt-lg-0">
                 <h2 class="heading-title">
-                  Access to Over 5,000+ Consumer, Business, Automotive and Home
-                  Lending Products
+                  Access to Over 5,000+ Consumer, Business, Automotive, and Home Lending Products.
                 </h2>
                 <ul class="list-data">
                   <li class="d-flex align-items-baseline">
@@ -552,10 +546,20 @@ get_header();
                     data-aos-duration="2000"
                   />
                   <h4>Merchant Solutions</h4>
-                  <p class="mb-0">
-                    Fintology is here every step of the way with also offering
-                    merchant solutions for you and your niche whether that be
-                    high risk or low barrier entry business models.
+                  
+					<p class="mb-0">
+                    <span class="" id="merchant-view-short"
+                      >At Fintology, we are with you every step of the way, providing comprehensive merchant solutions tailored to your specific needs and niche. Whether you operate a high-risk venture
+                    </span>
+                    <span class="d-none" id="merchant-view-all"
+                      >At Fintology, we are with you every step of the way, providing comprehensive merchant solutions tailored to your specific needs and niche. Whether you operate a high-risk venture or a business with low entry barriers, we've got you covered.</span
+                    >
+                    <a
+                      href="javascript:void(0)"
+                      class="primary-text hover-txt-black text-decoration-underline"
+                      id="view-more0"
+                      >View More</a
+                    >
                   </p>
                 </div>
                 <div
@@ -573,16 +577,10 @@ get_header();
                   <h4>Tax Strategy Technology</h4>
                   <p class="mb-0">
                     <span class="" id="tax-view-short"
-                      >Our technology allows us to create impactful tax strategy
-                      for our private labels and their clients. We garner the
-                      ability to see where money can be saved and gained
+                      >Our technology allows us to create impactful tax strategy for our users. We garner the ability to see where additional capital can be gained
                     </span>
                     <span class="d-none" id="tax-view-all"
-                      >Our technology allows us to create impactful tax strategy
-                      for our private labels and their clients. We garner the
-                      ability to see where money can be saved and gained through
-                      impactful tax strategy solutions offered
-                      autonomously.</span
+                      >Our technology allows us to create impactful tax strategy for our users. We garner the ability to see where additional capital can be gained through impactful tax strategy solutions offered autonomously.</span
                     >
                     <a
                       href="javascript:void(0)"
@@ -602,19 +600,13 @@ get_header();
                   />
                   <h4>Insurance Strategy Technology</h4>
                   <p class="mb-0">
-                    <span class="" id="insurance-view-short"
-                      >With the users of our software the businesses that offer
-                      our services to their B2B or B2C consumers have been able
-                      to create disruptive income strategies.</span
-                    >
-                    <span class="d-none" id="insurance-view-all"
-                      >With the users of our software the businesses that offer
-                      our services to their B2B or B2C consumers have been able
-                      to create disruptive income strategies. Through insurance
-                      strategies our users have allowed their consumers to have
-                      access to thousands of dollars with no dependency on their
-                      credit score or income.</span
-                    >
+                    <span class="" id="insurance-view-short">
+						Our software creates disruptive income through insurance strategy. Through insurance strategies our users have access to thousands of dollars with no dependency on their credit
+					  </span>
+                    <span class="d-none" id="insurance-view-all">
+						Our software creates disruptive income through insurance strategy. Through insurance strategies our users have access to thousands of dollars with no dependency on their credit score or income.
+
+					  </span>
                     <a
                       href="javascript:void(0)"
                       class="primary-text hover-txt-black text-decoration-underline"

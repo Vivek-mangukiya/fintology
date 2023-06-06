@@ -19,6 +19,8 @@
 	    <meta charset="UTF-8">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<meta name="google-site-verification" content="PcOfS3t5fm9s8lxCaTWp1FzxD6y84ELEUZzxV2Ay0Uc" />
         <!--  <link rel="icon" type="image/png" sizes="32x32" href="<?php // echo get_template_directory_uri(); ?>/assets/images/icons/favicon-32x32.png"> -->
 		<link rel="icon" type="image/png" sizes="32x32" href="https://fintology.io/wp-content/uploads/2023/05/favicon-32x32-1.png">
 	    <title><?php wp_title(''); ?> Fintology</title>
@@ -28,6 +30,40 @@
 	    <link type="text/css" rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/bootstrap.min.css" />
 	    <link type="text/css" rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css" />
 	    <link type="text/css" rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/responsive.css" />
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5452980549571944" crossorigin="anonymous">         </script>
+		
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-MSJPTV5');</script>
+		<!-- End Google Tag Manager -->
+		
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MSJPTV5"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+		
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-L7ENVK1XP6"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		  gtag('config', 'G-L7ENVK1XP6');
+		</script>
+		<!-- Hotjar Tracking Code for https://www.fintology.io -->
+	   <script>
+		(function(h,o,t,j,a,r){
+			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+			h._hjSettings={hjid:3501072,hjsv:6};
+			a=o.getElementsByTagName('head')[0];
+			r=o.createElement('script');r.async=1;
+			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+			a.appendChild(r);
+		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+	</script>
 
 	</head>
 
@@ -40,7 +76,7 @@
       </div>
     </div>
     <main>	
-	<div class="position-relative <?php if($_SERVER['REQUEST_URI']=="/"){ echo "main-section-wrap"; }else { echo "hero-main-mask-section-wrap"; } ?>">
+	<div class="position-relative <?php if($_SERVER['REQUEST_URI']=="/"){ echo "main-section-wrap"; }else { echo "hero-main-mask-section-wrap"; } if($_SERVER['REQUEST_URI']=="/privacy-policy/" || $_SERVER['REQUEST_URI']=="/terms-conditions/"){ echo "position-relative"; }  ?>">
         <!-- header start -->
         <header class="d-flex align-items-center">
             <div class="container position-relative z-1">
