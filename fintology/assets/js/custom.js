@@ -58,6 +58,20 @@ AOS.init();
 // AOS end
 
 $(document).ready(function () {
+	
+  $("#view-more0").click(function () {
+    var elem = $("#view-more0").text();
+    if (elem == "View More") {
+      $("#view-more0").text("View Less");
+      $("#merchant-view-short").addClass("d-none");
+      $("#merchant-view-all").removeClass("d-none");
+    } else {
+      $("#view-more0").text("View More");
+      $("#merchant-view-all").addClass("d-none");
+      $("#merchant-view-short").removeClass("d-none");
+    }
+  });
+	
   $("#view-more1").click(function () {
     var elem = $("#view-more1").text();
     if (elem == "View More") {
@@ -93,6 +107,6 @@ function myLoader() {
 
 function showPage() {
   document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
+//   document.getElementById("myDiv").style.display = "block";
 }
 // loader js end
