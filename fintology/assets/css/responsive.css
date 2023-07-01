@@ -68,20 +68,40 @@
   }
   .home-hero-layer1 {
     max-width: 200px;
-  } 
-  .privacy-terms-data h3{
+  }
+  .privacy-terms-data h3 {
     font-size: 30px;
     line-height: inherit;
     margin-bottom: 20px;
   }
-  .privacy-terms-data p{
+  .privacy-terms-data p {
     margin-bottom: 30px;
   }
   .privacy-policy-section {
     min-height: 200px;
   }
-  .privacy-terms-data h5{
+  .privacy-terms-data h5 {
     font-size: 18px;
+  }
+  .hero-page-head-section {
+    min-height: 200px;
+  }
+  .pricing-card-box {
+    padding: 20px;
+  }
+  .pricing-table-section thead h2 {
+    font-size: 22px;
+  }
+  .pricing-table-section thead span,
+  .pricing-table-section tbody tr td p {
+    font-size: 16px;
+  }
+  .pricing-card-box h2 {
+    font-size: 40px;
+  }
+  .pricing-card-box h6,
+  .pricing-card-box p {
+    font-size: 14px;
   }
 }
 @media (max-width: 1699px) {
@@ -257,8 +277,8 @@
     margin-top: -85%;
     transform: translateX(0);
   }
-  .hero-content-img-col{
-    margin: 0 auto ;
+  .hero-content-img-col {
+    margin: 0 auto;
   }
 }
 @media (max-width: 1279px) {
@@ -269,12 +289,14 @@
     margin-top: -90%;
     transform: translateX(10px);
   }
- 
 }
 @media (max-width: 1199px) {
   header ul li a {
     font-size: 14px;
     margin-right: 20px;
+  }
+  header ul li:not(:last-child) a {
+    margin-right: 27px;
   }
   .menu-social-options-list a:not(:last-child) {
     margin-right: 15px;
@@ -367,7 +389,7 @@
   .count-number-section .count-number-head-wrap {
     max-width: 400px;
   }
-  .home-hero-mockup-img{
+  .home-hero-mockup-img {
     max-width: 350px;
   }
   .home-hero-layer1 {
@@ -399,6 +421,43 @@
   }
   .how-it-work-col {
     padding-top: 0;
+  }
+  .pricing-card-box {
+    padding: 16px;
+    border-radius: 14px;
+  }
+  .pricing-card-box ul li {
+    font-size: 14px;
+    padding: 15px 0;
+  }
+  .pricing-card-box h5 small {
+    font-size: 14px;
+  }
+  .pricing-table-section thead h2 {
+    font-size: 20px;
+  }
+  .pricing-table-section thead span,
+  .pricing-table-section tbody tr td p {
+    font-size: 14px;
+  }
+  .pricing-table-section thead tr th:first-child,
+  .pricing-table-section tbody tr td:first-child {
+    width: 30%;
+  }
+  .pricing-table-section thead tr th,
+  .pricing-table-section tbody tr td {
+    width: 20%;
+  }
+  .pricing-table-section thead .primary-btn {
+    min-width: 100px;
+    min-height: 30px;
+    font-size: 14px;
+  }
+  .pricing-table-section thead tr th {
+    padding-bottom: 20px;
+  }
+  .pricing-table-section td {
+    padding: 10px 0;
   }
 }
 @media (min-width: 992px) {
@@ -533,14 +592,45 @@
     left: 430px;
     top: 280px;
   }
-  .privacy-terms-data p,.privacy-terms-data{
+  .privacy-terms-data p,
+  .privacy-terms-data {
     margin-bottom: 20px;
-  } 
-  .privacy-terms-data h3{
+  }
+  .privacy-terms-data h3 {
     font-size: 24px;
   }
-  .privacy-terms-data .contact-details-wrap{
+  .privacy-terms-data .contact-details-wrap {
     margin-top: 40px;
+  }
+  .coming-soon-section h1 {
+    font-size: 50px;
+  }
+  .pricing-card0 .pricing-mt-primary-btn,
+  .pricing-mt-primary-btn {
+    margin-top: 20px;
+  }
+  .hero-page-head-section {
+    min-height: 100px;
+    padding-bottom: 50px;
+  }
+  .pricing-card-col,
+  .ultimate-olan-text-head {
+    margin-top: 20px;
+  }
+  .pricing-card-box h4,
+  .pricing-card-box h6,
+  .pricing-card-box p,
+  .billed-monthly-head-wrap small {
+    font-size: 14px;
+  }
+  .pricing-card-box h2 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  .pricing-table-section thead h6,
+  .pricing-table-section thead h2,
+  .billed-monthly-head-wrap h6 {
+    font-size: 16px;
   }
 }
 @media (max-width: 767px) {
@@ -593,11 +683,31 @@
     left: unset;
     right: 30px;
   }
-  .terms-privacy-data-link-wrap small{
+  .terms-privacy-data-link-wrap small {
     min-width: 150px;
   }
   .privacy-terms-data ul.li-list-style-dot {
     padding-left: 12px;
+  }
+  .pricing-table-section tbody tr td p {
+    font-size: 12px;
+    line-height: inherit;
+  }
+  .pricing-table-section td .label-point {
+    padding-left: 10px;
+  }
+  .pricing-table-section thead tr th {
+    padding-bottom: 10px;
+  }
+  .pricing-table-section td {
+    padding: 5px 0;
+  }
+
+  header .primary-btn {
+    padding: 7px 10px;
+    min-width: 90px;
+    font-size: 12px;
+    min-height: 35px;
   }
 }
 @media (min-width: 576px) {
@@ -627,8 +737,8 @@
   .subscribe-section button,
   .mentoring-tips-containt button {
     min-width: 110px;
-    font-size: 14px;
-    padding: 7px 15px;
+    font-size: 13px;
+    padding: 7px 10px;
     min-height: 40px;
   }
   .home-hero-mockup-img,
@@ -647,7 +757,7 @@
     max-width: 80px;
   }
   .top-company-section .company-logos-img {
-   grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     align-items: center;
   }
   .footer-company-logo img {
@@ -800,39 +910,71 @@
   }
   @keyframes anime-smooth1 {
     to {
-      transform: translate3d(0,-20px,20px);
+      transform: translate3d(0, -20px, 20px);
     }
   }
   @keyframes anime-smooth0 {
     to {
-      transform: translate3d(0,20px,-20px);
+      transform: translate3d(0, 20px, -20px);
     }
   }
-  .privacy-terms-data p{
+  .privacy-terms-data p {
     font-size: 15px;
   }
-  .privacy-terms-data h3{
+  .privacy-terms-data h3 {
     font-size: 20px;
   }
-
+  .coming-soon-section h1 {
+    font-size: 30px;
+  }
+  .coming-soon-section p {
+    font-size: 14px;
+  }
+  .pricing-table-section table {
+    width: 150%;
+    overflow-x: auto;
+  }
+  .billed-monthly-head-wrap h6 {
+    font-size: 14px;
+  }
+  .billed-monthly-head-wrap small {
+    font-size: 12px;
+  }
 }
-@media (max-width: 399px){
+@media (max-width: 399px) {
   .home-hero-layer1 {
     top: 130px;
   }
   .home-hero-layer0 {
     top: 270px;
   }
-  .terms-privacy-data-link-wrap small{
+  .terms-privacy-data-link-wrap small {
     min-width: 100px;
   }
-	  .top-company-section img {
+  .top-company-section img {
     max-width: 70px;
+  }
+  .pricing-table-section table {
+    width: 200%;
+    overflow-x: auto;
   }
 }
 @media (max-width: 374px) {
   .hero-company-logos-section .company-logos-img img {
     max-width: 70px;
+  }
+}
+@media (max-width: 360px) {
+  header .primary-btn {
+    padding: 7px 8px;
+    min-width: 75px;
+    font-size: 10px;
+    min-height: 30px;
+  }
+}
+@media (min-width: 350px) {
+  .mobile-menu-ico {
+    margin-left: 15px;
   }
 }
 @media (max-width: 349px) {
@@ -843,7 +985,7 @@
     max-width: 80px;
     top: 250px;
   }
-	  .top-company-section img {
+  .top-company-section img {
     max-width: 60px;
   }
 }

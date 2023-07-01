@@ -76,7 +76,11 @@
       </div>
     </div>
     <main>	
-	<div class="position-relative <?php if($_SERVER['REQUEST_URI']=="/"){ echo "main-section-wrap"; }else { echo "hero-main-mask-section-wrap"; } if($_SERVER['REQUEST_URI']=="/privacy-policy/" || $_SERVER['REQUEST_URI']=="/terms-conditions/"){ echo "position-relative"; }  ?>">
+	<div class="position-relative <?php 
+        if($_SERVER['REQUEST_URI']=="/"){ echo "main-section-wrap"; } else { echo "hero-main-mask-section-wrap"; } 
+        if($_SERVER['REQUEST_URI']=="/privacy-policy/" || $_SERVER['REQUEST_URI']=="/terms-conditions/") { echo "position-relative"; } 
+        if($_SERVER['REQUEST_URI']=="/coming-soon/"){ echo "coming-soon-section-wrap"; } 
+        ?>">
         <!-- header start -->
         <header class="d-flex align-items-center">
             <div class="container position-relative z-1">
@@ -100,14 +104,22 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="<?php echo get_site_url(); ?>/how-it-work/" class="position-relative <?php if($_SERVER['REQUEST_URI']=="/how-it-work/"){ echo "active-page"; } ?>">How it works</a>
+                                    <a href="<?php echo get_site_url(); ?>/pricing/" class="position-relative <?php if($_SERVER['REQUEST_URI']=="/pricing/"){ echo "active-page"; } ?>">
+                                    Pricing
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo get_site_url(); ?>/how-it-works/" class="position-relative <?php if($_SERVER['REQUEST_URI']=="/how-it-works/"){ echo "active-page"; } ?>">How it works</a>
                                 </li>
                                 <li>
                                     <a href="<?php echo get_site_url(); ?>/careers/" class="position-relative <?php if($_SERVER['REQUEST_URI']=="/careers/"){ echo "active-page"; } ?>">Careers</a>
                                 </li>
                             </ul>
                         </div>
-                        <a href="https://calendly.com/fintology/learnmore?month=2023-04" class="primary-btn secondary-btn ms-auto ms-lg-0 w-max-content" target="_blank">Book a Demo</a>
+                        <div class="d-flex align-item-center gap-2 gap-md-3 ms-auto ms-lg-0" >
+                            <a href="http://app.fintology.io/onboarding" class="primary-btn secondary-btn w-max-content" target="_blank" >Get Funding</a>                            
+                            <a href="https://calendly.com/fintology/learnmore?month=2023-04" class="primary-btn w-max-content" target="_blank">Book a Demo</a>
+                        </div>                        
                     </div>
                 </div>
             </div>
@@ -130,12 +142,17 @@
                     </a>
                 </li>
                 <li>
-                    <a href="<?php echo get_site_url(); ?>/how-it-work/" class="position-relative <?php if($_SERVER['REQUEST_URI']=="/how-it-work/"){ echo "active-page"; } ?>">How it works</a>
+                    <a href="<?php echo get_site_url(); ?>/pricing/" class="position-relative <?php if($_SERVER['REQUEST_URI']=="/pricing/"){ echo "active-page"; } ?>">
+                    Pricing
+                    </a>
+                </li>
+                <li>
+                    <a href="<?php echo get_site_url(); ?>/how-it-works/" class="position-relative <?php if($_SERVER['REQUEST_URI']=="/how-it-works/"){ echo "active-page"; } ?>">How it works</a>
                 </li>
                 <li>
                     <a href="<?php echo get_site_url(); ?>/careers/" class="position-relative <?php if($_SERVER['REQUEST_URI']=="/careers/"){ echo "active-page"; } ?>">Careers</a>
                 </li>
-<!--                 <a href="https://calendly.com/fintology/learnmore?month=2023-04" class="primary-btn secondary-btn w-max-content" target="_blank">Book a Demo</a> -->
+                <!--   <a href="https://calendly.com/fintology/learnmore?month=2023-04" class="primary-btn secondary-btn w-max-content" target="_blank">Book a Demo</a> -->
             </ul>
         </div>
         <!-- header end -->

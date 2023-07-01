@@ -21,7 +21,7 @@ get_header();
                     <div class="col-12 d-lg-flex align-items-center position-relative z-1">
                         <div class="hero-content-col position-relative z-1">
                             <h1 class="heading-title text-white big-heading-title text-center text-lg-start">Our Journey and Goal is to Build High Quality Experiences for Every <span class="primary-text">B2B</span> Client we Assist</h1>
-                            <div  data-aos="fade-up"
+<!--                             <div  data-aos="fade-up"
                             data-aos-duration="1000">
                             <a href="https://calendly.com/fintology/learnmore?month=2023-04" class="primary-btn gap-2 content-mt-primary-btn w-max-content mx-auto mx-lg-0" target="_blank">
                                 Book a Demo
@@ -30,7 +30,45 @@ get_header();
                                 </svg>                                
                             </a>
 
-                            </div>
+                            </div> -->
+							<div class="d-flex align-items-center justify-content-center justify-content-lg-start gap-3" data-aos="fade-up" data-aos-duration="1000">
+                    <a
+                      href="https://calendly.com/fintology/learnmore?month=2023-04"
+                      class="primary-btn gap-2 content-mt-primary-btn w-max-content"
+                      target="_blank"
+                    >
+                      Book a Demo
+                      <svg
+                        width="20"
+                        height="14"
+                        viewBox="0 0 20 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="left-arrow"
+                      >
+                        <path
+                          d="M18.9222 6.41077L13.0888 0.577433C12.9317 0.425634 12.7212 0.341639 12.5027 0.343537C12.2842 0.345436 12.0752 0.433077 11.9207 0.587584C11.7662 0.742091 11.6785 0.951101 11.6766 1.1696C11.6747 1.3881 11.7587 1.5986 11.9105 1.75577L16.3213 6.1666H1.66634C1.44533 6.1666 1.23337 6.2544 1.07709 6.41068C0.920805 6.56696 0.833008 6.77892 0.833008 6.99993C0.833008 7.22095 0.920805 7.43291 1.07709 7.58919C1.23337 7.74547 1.44533 7.83327 1.66634 7.83327H16.3213L11.9105 12.2441C11.8309 12.321 11.7674 12.4129 11.7238 12.5146C11.6801 12.6163 11.6571 12.7256 11.6561 12.8363C11.6552 12.9469 11.6763 13.0566 11.7182 13.1591C11.7601 13.2615 11.8219 13.3545 11.9002 13.4328C11.9784 13.511 12.0715 13.5729 12.1739 13.6148C12.2763 13.6567 12.386 13.6778 12.4967 13.6768C12.6073 13.6758 12.7167 13.6529 12.8183 13.6092C12.92 13.5655 13.012 13.502 13.0888 13.4224L18.9222 7.5891C19.0784 7.43283 19.1662 7.2209 19.1662 6.99993C19.1662 6.77896 19.0784 6.56704 18.9222 6.41077Z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                    </a>
+					   <a href="<?php echo get_site_url(); ?>/pricing/" class="primary-btn emptiness-btn gap-2 content-mt-primary-btn w-max-content price-btn" >
+                      Pricing
+                      <svg
+                        width="20"
+                        height="14"
+                        viewBox="0 0 20 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="left-arrow"
+                      >
+                        <path
+                          d="M18.9222 6.41077L13.0888 0.577433C12.9317 0.425634 12.7212 0.341639 12.5027 0.343537C12.2842 0.345436 12.0752 0.433077 11.9207 0.587584C11.7662 0.742091 11.6785 0.951101 11.6766 1.1696C11.6747 1.3881 11.7587 1.5986 11.9105 1.75577L16.3213 6.1666H1.66634C1.44533 6.1666 1.23337 6.2544 1.07709 6.41068C0.920805 6.56696 0.833008 6.77892 0.833008 6.99993C0.833008 7.22095 0.920805 7.43291 1.07709 7.58919C1.23337 7.74547 1.44533 7.83327 1.66634 7.83327H16.3213L11.9105 12.2441C11.8309 12.321 11.7674 12.4129 11.7238 12.5146C11.6801 12.6163 11.6571 12.7256 11.6561 12.8363C11.6552 12.9469 11.6763 13.0566 11.7182 13.1591C11.7601 13.2615 11.8219 13.3545 11.9002 13.4328C11.9784 13.511 12.0715 13.5729 12.1739 13.6148C12.2763 13.6567 12.386 13.6778 12.4967 13.6768C12.6073 13.6758 12.7167 13.6529 12.8183 13.6092C12.92 13.5655 13.012 13.502 13.0888 13.4224L18.9222 7.5891C19.0784 7.43283 19.1662 7.2209 19.1662 6.99993C19.1662 6.77896 19.0784 6.56704 18.9222 6.41077Z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                    </a>
+                  </div>
                         </div>
                         <div class="hero-content-img-col text-center ms-lg-auto text-lg-end"   data-aos="fade-up"
                         data-aos-duration="1000">
@@ -197,12 +235,12 @@ get_header();
                         <p class="heading-label-p text-center">Our board of members has decades of knowledge and experience building successful tech startups. soon, we will IPO and now is the time where we will be interested in additional capital partners that can have added value and experience to our technology.</p>
                         <div  data-aos="fade-up"
                         data-aos-duration="1000">
-                        <button class="primary-btn gap-2 content-mt-primary-btn mx-auto">
+                        <a class="primary-btn gap-2 content-mt-primary-btn mx-auto w-max-content" href="mailto:info@fintology.io">
                             Email Us
                             <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="left-arrow">
                                 <path d="M18.9222 6.41077L13.0888 0.577433C12.9317 0.425634 12.7212 0.341639 12.5027 0.343537C12.2842 0.345436 12.0752 0.433077 11.9207 0.587584C11.7662 0.742091 11.6785 0.951101 11.6766 1.1696C11.6747 1.3881 11.7587 1.5986 11.9105 1.75577L16.3213 6.1666H1.66634C1.44533 6.1666 1.23337 6.2544 1.07709 6.41068C0.920805 6.56696 0.833008 6.77892 0.833008 6.99993C0.833008 7.22095 0.920805 7.43291 1.07709 7.58919C1.23337 7.74547 1.44533 7.83327 1.66634 7.83327H16.3213L11.9105 12.2441C11.8309 12.321 11.7674 12.4129 11.7238 12.5146C11.6801 12.6163 11.6571 12.7256 11.6561 12.8363C11.6552 12.9469 11.6763 13.0566 11.7182 13.1591C11.7601 13.2615 11.8219 13.3545 11.9002 13.4328C11.9784 13.511 12.0715 13.5729 12.1739 13.6148C12.2763 13.6567 12.386 13.6778 12.4967 13.6768C12.6073 13.6758 12.7167 13.6529 12.8183 13.6092C12.92 13.5655 13.012 13.502 13.0888 13.4224L18.9222 7.5891C19.0784 7.43283 19.1662 7.2209 19.1662 6.99993C19.1662 6.77896 19.0784 6.56704 18.9222 6.41077Z" fill="currentColor"/>
                             </svg>                                
-                        </button>
+                        </a>
                     </div>
                     </div>
                 </div>
